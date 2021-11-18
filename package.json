@@ -1,0 +1,24 @@
+{
+  "name": "weather-app-nodejs",
+  "version": "1.0.0",
+  "description": "Practicing nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashpoz/weather-app-nodejs.git"
+  },
+  "author": "Adrian S Haynes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashpoz/weather-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/ashpoz/weather-app-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "superagent": "^6.1.0"
+  }
+}
